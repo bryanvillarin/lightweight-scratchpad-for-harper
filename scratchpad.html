@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+    Lightweight Scratchpad for Harper
+    Created by Bryan Villarin
+    https://github.com/bryanvillarin/lightweight-scratchpad-for-harper
+    Thank you, Elijah Potter!
+    https://elijahpotter.dev
+-->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Harper Grammar Scratchpad</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: 'Manrope', sans-serif;
+            background: #f0f0f0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 650px;
+            width: 100%;
+        }
+        .purpose {
+            font-size: 13px;
+            line-height: 1.5;
+            color: #666;
+            margin-bottom: 16px;
+            padding: 12px 40px;
+            background: #fafafa;
+            border-left: 3px solid #ddd;
+            border-radius: 3px;
+        }
+        .purpose a {
+            color: #0073aa;
+            text-decoration: none;
+        }
+        .purpose a:hover {
+            text-decoration: underline;
+        }
+        #draft {
+            width: 100%;
+            height: calc(100vh - 160px);
+            font-family: 'Manrope', sans-serif;
+            font-size: 18px;
+            line-height: 1.6;
+            padding: 40px;
+            background: white;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            overflow-y: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            box-sizing: border-box;
+            -webkit-user-modify: read-write-plaintext-only;
+        }
+        #draft:focus {
+            outline: 2px solid #0073aa;
+            outline-offset: -2px;
+        }
+        #draft:empty:before {
+            content: "Paste your text here...";
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="purpose">
+            Text entered here is checked with the <a href="https://writewithharper.com" target="_blank">Harper</a> <a href="https://chromewebstore.google.com/detail/private-grammar-checking/lodbfhdipoipcjmlebjbgmmgekckhpfb" target="_blank">Chrome extension</a> (or <a href="https://addons.mozilla.org/en-US/firefox/addon/private-grammar-checker-harper/" target="_blank">Firefox extension</a>). Harper is a free grammar and spell checker that respects your privacy. This file works offline and uses the <a href="https://fonts.google.com/specimen/Manrope" target="_blank">Manrope</a> font (installed locally).
+        </div>
+        <div id="draft" contenteditable="true"></div>
+    </div>
+</body>
+</html>
