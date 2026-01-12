@@ -24,23 +24,21 @@ One HTML file that works with [Harper's Chrome extension](https://chromewebstore
 
 ## Setup
 
-1. Download [Manrope](https://fonts.google.com/specimen/Manrope), install via Font Book
-2. Install [Harper's Chrome extension](https://chromewebstore.google.com/detail/private-grammar-checking/lodbfhdipoipcjmlebjbgmmgekckhpfb) or [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/private-grammar-checker-harper/)
-3. **For Chrome:** Enable "Allow access to file URLs" in the extension settings (required for local files)
-4. In Harper's extension settings, check **"Enable on New Sites by Default"** (required for local files)
-5. Download `scratchpad.html` and save somewhere convenient
-6. Bookmark it for quick access
-
-That's it.
+1. Download [Manrope](https://fonts.google.com/specimen/Manrope) and install it (via Font Book on macOS, or your system's font installer).
+2. Install [Harper's Chrome extension](https://chromewebstore.google.com/detail/private-grammar-checking/lodbfhdipoipcjmlebjbgmmgekckhpfb) or [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/private-grammar-checker-harper/).
+3. **For Chrome:** Enable "Allow access to file URLs" in the extension settings (required for local files).
+4. In Harper's extension settings, check **"Enable on New Sites by Default"** (required for local files).
+5. Download [`scratchpad.html`](https://raw.githubusercontent.com/bryanvillarin/lightweight-scratchpad-for-harper/main/scratchpad.html) and save somewhere convenient.
+6. Bookmark it for quick access.
 
 ## How to Use
 
-1. Draft in BBEdit, Things, Day One, Mail, whatever
-2. Copy text
-3. Open scratchpad
-4. Paste, let Harper check
-5. Fix issues
-6. Copy back
+1. Draft in BBEdit, Things, Day One, Mail, whatever.
+2. Copy text.
+3. Open scratchpad.
+4. Paste, let Harper check.
+5. Fix issues.
+6. Copy back.
 
 Refresh clears the text. Disposable by design—your source of truth lives in your app, not here.
 
